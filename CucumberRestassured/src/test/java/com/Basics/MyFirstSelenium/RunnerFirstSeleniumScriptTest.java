@@ -1,4 +1,4 @@
-package com.basic.MyFirstSelenium;
+package com.Basics.MyFirstSelenium;
 
 import org.junit.runner.RunWith;
 
@@ -8,8 +8,8 @@ import cucumber.api.junit.Cucumber;
 @RunWith(Cucumber.class)
 @CucumberOptions(
 		
-		features= {"src/test/resources/com/basic/MyFirstSelenium/FirstSeleniumScriptFF2.feature",
-				"src/test/resources/com/basic/MyFirstSelenium/FirstSeleniumScriptFF.feature"},
+		features= {"src/test/resources/com/Basics/MyFirstSelenium/FirstSeleniumScriptFF2.feature",
+				"src/test/resources/com/Basics/MyFirstSelenium/FirstSeleniumScriptFF.feature"},
 		glue={"com/basic/MyFirstSelenium/"},
 		plugin={"pretty",
 				"html:target/cucumber-htmlreport",
