@@ -3,11 +3,9 @@ package com.Basics.postWithDataTableSD;
 import cucumber.api.DataTable;
 import cucumber.api.java.en.Given;
 import cucumber.api.java.en.Then;
-import cucumber.api.java.en.When;
-import static io.restassured.RestAssured.*;
-import static org.hamcrest.Matchers.*;
 
-import java.io.File;
+
+
 import java.io.IOException;
 import java.nio.file.Files;
 import java.nio.file.Paths;
@@ -15,8 +13,7 @@ import java.util.List;
 
 import io.restassured.RestAssured;
 import io.restassured.http.ContentType;
-import io.restassured.http.Headers;
-import io.restassured.path.json.JsonPath;
+
 import io.restassured.response.Response;
 
 import org.json.JSONObject;
