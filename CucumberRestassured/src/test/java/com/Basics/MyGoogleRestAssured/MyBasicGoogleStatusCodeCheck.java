@@ -1,4 +1,4 @@
-package com.basic.MyGoogleRestAssured;
+package com.Basics.MyGoogleRestAssured;
 
 import org.junit.Assert;
 

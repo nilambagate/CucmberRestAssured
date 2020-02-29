@@ -1,4 +1,4 @@
-package com.basic.MyFirstSelenium;
+package com.Basics.MyFirstSelenium;
 
 import org.junit.Assert;
 import org.openqa.selenium.By;
